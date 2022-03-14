@@ -1,0 +1,4 @@
+#error /TEST FAILED/
+#error /[ERROR] There are test failures/
+error /All \(\d* of \d*\) datasets failed/
+warn /\d* of \d* datasets failed/

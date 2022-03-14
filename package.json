@@ -1,0 +1,20 @@
+{
+  "name": "RosyAutomationTest",
+  "version": "1.0.0",
+  "description": "Automation script for Rosy application",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "pm2 start server.js",
+    "stop": "pm2 delete all"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "nodemailer": "^6.4.12",
+    "pm2": "^4.5.0",
+    "yargs": "^16.0.3"
+  }
+}

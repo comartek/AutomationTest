@@ -1,0 +1,20 @@
+1. Sometimes IE fails to execute any action with an "Unable to get browser" exception (e.g. after login to T24). This is a bug in IE, a workaround is to add the domain to IE's list of Trusted Sites, see
+    https://github.com/seleniumhq/selenium-google-code-issue-archive/issues/6511
+2. Substeps for @Step-annotated methods do not display in Allure report if <forkCount> is set to 0 in maven-surefire settings. Setting it to 1 fixes substep reporting but breaks debugging in IDEA.
+ To have report working in non-forked mode you have to pass -javaagent param not to Surefire, but to Maven process itself. It can be done by setting "-javaagent:drv/aspectjweaver-1.8.10.jar"
+ in IDEA's Run configurations->Runner tab->VM Options. Or, if running tests from command line, you should set MAVEN_OPTS envvar before executing tests, with a command like this:
+ set MAVEN_OPTS="-javaagent:drv/aspectjweaver-1.8.10.jar"& mvn verify
+
+
+
+
+
+
+
+
+
+
+
+
+
+N. To do sql: File->Project structure->Libraries->Add->Path to ../drv/ojdbc7.jar

@@ -1,0 +1,12 @@
+[
+  {
+    "name": "LocalDB",
+    "host": "7",
+    "port": "",
+    "schema": "",
+    "serviceName": "",
+    "login": "",
+    "password": "",
+    "type": "MySQL"
+  }
+]

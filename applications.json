@@ -1,0 +1,53 @@
+[
+  {
+    "name": "Chrome",
+    "drivername": "Chrome",
+    "capabilities": {
+      "browser": "chrome",
+      "browser.implicitTimeout": "10",
+      "browser.waitPageLoadedTimeout": "300",
+      "goog:chromeOptions": {
+        "w3c": false
+      }
+    }
+  },
+  {
+    "name": "Internet_Explorer",
+    "drivername": "Internet Explorer",
+    "capabilities": {
+      "browser": "internet explorer",
+      "browser.implicitTimeout": "3",
+      "browser.waitPageLoadedTimeout": "300",
+      "enablePersistentHover": "true",
+      "nativeEvents":"false",
+      "disable-popup-blocking":"true"
+    }
+  },
+  {
+    "name": "Firefox",
+    "drivername": "Firefox",
+    "capabilities": {
+      "browser": "firefox",
+      "browser.implicitTimeout": "3",
+      "browser.waitPageLoadedTimeout": "300"
+    }
+  },
+  {
+    "name": "Android",
+    "drivername": "Android",
+    "capabilities": {
+    }
+  },
+  {
+    "name": "AndroidWeb",
+    "drivername": "AndroidWeb",
+    "capabilities": {
+    }
+  },
+  {
+    "name": "iOS",
+    "drivername": "iOS",
+    "capabilities": {
+    }
+  }
+]

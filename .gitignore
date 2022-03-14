@@ -1,0 +1,6 @@
+logs
+.allure
+allure-report
+target
+.cert
+*.log
